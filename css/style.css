@@ -51,6 +51,14 @@ p1 {
 	font-weight: 600;
 }
 
+p2 {
+	margin: 0;
+	color: #fff;
+	font-size: 1.3em;
+	line-height: 1.6;
+	font-weight: 600;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -169,6 +177,22 @@ header h1 a span {
 
 /*-- //header --*/
 
+/*--logo--*/
+.navbar-header h1 {
+   background-image: url(../images/IMG-20210410-WA0010.jpg) ;
+    display: block;
+}
+.navbar-header h1 a {
+	
+    text-decoration: none;
+    padding: .2em 0.5em;
+    display: inline-block;
+   
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+/*--//logo--*/
 /* banner */
 
 .banner {
@@ -201,7 +225,7 @@ li.breadcrumb-item a {
 }
 
 .breadcrumb-item.active {
-	color: #af4eaa;
+	color: #39608b;
 	font-weight: bold;
 	font-size: 0.9em;
 	letter-spacing: 1px;
@@ -500,8 +524,8 @@ h4.abt-right-text {
 
 .slider-info a:hover {
 	color: #fff;
-	background: #b34fa9;
-	border-color: #b34fa9;
+	background: #39608b;
+	border-color: #39608b;
 }
 
 /* //text slider */
@@ -601,7 +625,7 @@ h3.stat-title {
 }
 
 .pos_back {
-	background: #8c46b3;
+	background: #39608b;
 }
 
 .agileits-services-grids h4 {
@@ -693,7 +717,7 @@ h3.agile-title {
 	text-transform: uppercase;
 	font-family: 'EB Garamond', serif;
 	-webkit-text-fill-color: transparent;
-	background: -webkit-linear-gradient(transparent, transparent), url(../images/1.jpg) repeat 0px 0px;
+	background: -webkit-linear-gradient(transparent, transparent), url(../images/living\ bk.jpg) repeat 0px 0px;
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
 }
@@ -712,7 +736,7 @@ i.fas.fa-quote-left {
 
 
 h5.abt-right {
-	color: #7c43b8;
+	color: #39608b;
 	font-size: 2em;
 	text-transform: capitalize;
 	font-style: italic;
@@ -729,7 +753,7 @@ h0.abt-right {
 	margin-top: .2em;
 }
 h7.abt-right {
-	color: #7c43b8;
+	color: #39608b;
 	font-size: 2em;
 	text-transform: capitalize;
 	font-style: normal;
@@ -775,6 +799,7 @@ a.serv_link {
 }
 
 /* //view more *services/
+
 /* types */
 
 .types-pos {
@@ -882,7 +907,7 @@ h4.abt-right-text1.font-italic.text-white {
 	-webkit-box-shadow: none;
 	border-bottom: 1px;
 	border-style: none none solid none;
-	border-color: #b14faa;
+	border-color: #39608b;
 }
 
 .form-group .form-control:focus {
@@ -1239,7 +1264,7 @@ a.sb {
 /*-- //gallery --*/
 
 .typo-wthree h4 {
-	color: #af4eaa;
+	color: #39608b;
 	font-size: 1.5em;
 	text-transform: capitalize;
 }
@@ -1336,12 +1361,12 @@ a.sb {
 
 @media screen and (max-width: 991px) {
 	.navbar-collapse {
-		background: #7c43b8;
-		background: -webkit-linear-gradient(to right, #b34fa9, #7c43b8);
-		background: linear-gradient(to right, #b34fa9, #7c43b8);
-		background: -moz-linear-gradient(to right, #b34fa9, #7c43b8);
-		background: -o-linear-gradient(to right, #b34fa9, #7c43b8);
-		background: -ms-linear-gradient(to right, #b34fa9, #7c43b8);
+		background: #428bca;
+		background: -webkit-linear-gradient(to right, #39608b, #428bca);
+		background: linear-gradient(to right, #39608b, #428bca);
+		background: -moz-linear-gradient(to right, #39608b, #428bca);
+		background: -o-linear-gradient(to right, #39608b, #428bca);
+		background: -ms-linear-gradient(to right, #39608b, #428bca);
 		padding: 1em;
 	}
 	.navbar-nav .dropdown-menu {
@@ -1453,6 +1478,7 @@ a.sb {
 	.newsright {
 		width: 100%;
 	}
+	
 	.serv_bottom h5 {
 		word-spacing: 14px;
 	}
